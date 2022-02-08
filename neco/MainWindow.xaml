@@ -1,0 +1,14 @@
+﻿<Window x:Class="neco.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:neco"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txt1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="800" Height="347" TextChanged="txt1_TextChanged"/>
+        <Button Content="Button" Margin="10,363,563,23" Click="Button_Click"/>
+
+    </Grid>
+</Window>
